@@ -1,0 +1,16 @@
+
+
+  LIBRERÍA NECESARIA (Arduino IDE):
+   Sketch -> Include Library -> Manage Libraries...
+   Buscar: "PS3 Controller Host"  (autor: jvpernis)
+   o instalar manualmente desde: https://github.com/jvpernis/esp32-ps3
+
+  EMPAREJAMIENTO DEL MANDO PS3:
+   1. Cargar este código una vez. Abrir el Monitor Serie a 115200 baudios.
+   2. El ESP32 va a imprimir su propia dirección MAC bluetooth.
+   3. Conectar el mando PS3 a una PC con un cable USB y usar una herramienta
+      como "SixaxisPairTool" (Windows) para escribirle al mando esa MAC
+      como dirección de host.
+   4. Desconectar el cable, presionar el botón PS del mando. Debería
+      conectarse solo al ESP32 de ahí en adelante.
+  
