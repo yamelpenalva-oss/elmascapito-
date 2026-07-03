@@ -3,7 +3,7 @@
   LIBRERÍA NECESARIA (Arduino IDE):
    Sketch -> Include Library -> Manage Libraries...
    Buscar: "PS3 Controller Host"  (autor: jvpernis)
-   o instalar manualmente desde: https://github.com/jvpernis/esp32-ps3
+   o instalar manualmente desde: "https://github.com/jvpernis/esp32-ps3"
 
   EMPAREJAMIENTO DEL MANDO PS3:
    1. Cargar este código una vez. Abrir el Monitor Serie a 115200 baudios.
